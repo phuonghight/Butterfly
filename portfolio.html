@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Details - Butterfly</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="header" class="header">
+        <a href="index.html" class="header__link-logo">
+            <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/logo.png" alt="" class="header__link--img">
+        </a>
+
+        <button class="navbar__mobile__btn">
+                <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__item">
+                    <a href="#" class="navbar__link">HOME</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__link">ABOUT</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#services" class="navbar__link">SERVICES</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#portfolio" class="navbar__link navbar__link--active">PORTFOLIO</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#team" class="navbar__link">TEAM</a>
+                </li>
+                <li class="navbar__item dropdown">
+                    <a href="" class="navbar__link">DROPDOWN
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown__list">
+                        <li class="dropdown__item">
+                            <a href="" class="dropdown__link navbar__link">Dropdown 1</a>
+                        </li>
+                        <li class="dropdown__item deep__dropdown">
+                            <a href="#" class="dropdown__link navbar__link">Deep Dropdown
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="deep__dropdown__list">
+                                <li class="deep__dropdown__item dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 1</a>
+                                </li>
+                                <li class="deep__dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 2
+                                    </a>
+
+                                </li>
+                                <li class="deep__dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 3</a>
+                                </li>
+                                <li class="deep__dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 4</a>
+                                </li>
+                                <li class="deep__dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 5</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown__item">
+                            <a href="" class="dropdown__link navbar__link">Dropdown 2</a>
+                        </li>
+                        <li class="dropdown__item">
+                            <a href="" class="dropdown__link navbar__link">Dropdown 3</a>
+                        </li>
+                        <li class="dropdown__item">
+                            <a href="" class="dropdown__link navbar__link">Dropdown 4</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__item">
+                    <a href="#contact" class="navbar__link">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="overlay">
+        <div class="navbar__list__mobile">
+            <button class="navbar__list__mobile--close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <ul class="navbar__list">
+                <li class="navbar__item navbar__item__mobile">
+                    <a href="#" class="navbar__link">HOME</a>
+                </li>
+                <li class="navbar__item navbar__item__mobile">
+                    <a href="#about" class="navbar__link">ABOUT</a>
+                </li>
+                <li class="navbar__item navbar__item__mobile">
+                    <a href="#services" class="navbar__link">SERVICES</a>
+                </li>
+                <li class="navbar__item navbar__item__mobile">
+                    <a href="#portfolio" class="navbar__link navbar__link--active">PORTFOLIO</a>
+                </li>
+                <li class="navbar__item navbar__item__mobile">
+                    <a href="#team" class="navbar__link">TEAM</a>
+                </li>
+                <li class="navbar__item dropdown">
+                    <a href="#" class="navbar__link">DROPDOWN
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown__list">
+                        <li class="dropdown__item">
+                            <a href="" class="dropdown__link navbar__link">Dropdown 1</a>
+                        </li>
+                        <li class="dropdown__item deep__dropdown">
+                            <a href="#" class="dropdown__link navbar__link">Deep Dropdown
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="deep__dropdown__list">
+                                <li class="deep__dropdown__item dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 1</a>
+                                </li>
+                                <li class="deep__dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 2
+                                    </a>
+
+                                </li>
+                                <li class="deep__dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 3</a>
+                                </li>
+                                <li class="deep__dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 4</a>
+                                </li>
+                                <li class="deep__dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 5</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown__item">
+                            <a href="" class="dropdown__link navbar__link">Dropdown 2</a>
+                        </li>
+                        <li class="dropdown__item">
+                            <a href="" class="dropdown__link navbar__link">Dropdown 3</a>
+                        </li>
+                        <li class="dropdown__item">
+                            <a href="" class="dropdown__link navbar__link">Dropdown 4</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__item navbar__item__mobile">
+                    <a href="#contact" class="navbar__link">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="headding" style="background-color: #F0F9FD;">
+        <div class="container headding">
+            <h2 class="headding__hd">Portfolio Details</h2>
+            <div class="headding__control">
+                <a href="07-Lop1-DangHoangPhuong.html" class="headding__link">Home  </a>
+                <div class="headding__text"> / Portfolio Details</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main container">
+        <div class="main__show main__item">
+            <div class="main__pictures">
+                <div>
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-1.jpg" alt="" class="main__pictures__img active">
+                </div>
+                <div>
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-2.jpg" alt="" class="main__pictures__img">
+                </div>
+                <div>
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-3.jpg" alt="" class="main__pictures__img">
+                </div>
+            </div>
+            <div class="main__controls">
+                <div class="main__control main__control--active"></div>
+                <div class="main__control"></div>
+                <div class="main__control"></div>
+            </div>
+        </div>
+        <div class="main__content main__item">
+            <div class="main__content__box">
+                <div class="main__content__box__hd">Project information</div>
+                <hr>
+                <ul>
+                    <li class="main__content__text">
+                        <b>Category:</b> Web design
+                    </li>
+                    <li class="main__content__text">
+                        <b>Client:</b> ASU Company
+                    </li>
+                    <li class="main__content__text">
+                        <b>Project date:</b> 01 March, 2020
+                    </li>
+                    <li class="main__content__text">
+                        <b>Project URL:</b><a href=""> www.example.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="main__content__decscribe">
+                <h3 class="main__content__decscribe__hd">This is an example of portfolio detail</h3>
+                <div class="main__content__decscribe__text main__content__text">Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora
+                    consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact__subscribe">
+        <div class="container">
+            <h3 class="contact__subscribe__headding">Join Our Newsletter</h3>
+            <div class="contact__subscribe__text">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</div>
+            <div class="contact__subscribe__input">
+                <input type="text" class="contact__subscribe__ip">
+                <button class="contact__subscribe__btn">Subscribe</button>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer__info flex flex-wrap">
+                <div class="footer__info__main footer__info__item">
+                    <h3 class="footer__info__main__headding">Butterfly</h3>
+                    <div class="footer__info__main__addr">
+                        A108 Adam Street
+                        <br> New York, NY 535022
+                        <br> United States
+                    </div>
+                    <div class="footer__info__main__phone"><b>Phone:</b> +1 5589 55488 55</div>
+                    <div class="footer__info__main__email"><b>Email:</b> info@example.com</div>
+                </div>
+                <div class="footer__info__links footer__info__item">
+                    <h3 class="footer__infor__h3">Useful Links</h3>
+                    <div class="footer__info__links__list">
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> Home
+                        </a>
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> About us
+                        </a>
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> Services
+
+                        </a>
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> Terms of service
+                        </a>
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> Privacy policy
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__info__services footer__info__item">
+                    <h3 class="footer__infor__h3">Our Services</h3>
+                    <div class="footer__info__links__list">
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> Web Design
+                        </a>
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> Web Development
+                        </a>
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> Product Management
+
+                        </a>
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> Marketing
+                        </a>
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> Graphic Design
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__info__networks footer__info__item">
+                    <h3 class="footer__infor__h3">Our Social Networks</h3>
+                    <div class="footer__info__networks__text">Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</div>
+                    <div class="footer__info__networks__icons">
+                        <div class="footer__info__networks__icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="footer__info__networks__icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="footer__info__networks__icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="footer__info__networks__icon">
+                            <i class="fa-brands fa-skype"></i>
+                        </div>
+                        <div class="footer__info__networks__icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="background-color: #F0F9FD;">
+            <div class="container">
+                <div style="padding: 50px 0;" class="footer__bonus flex">
+                    <div class="footer__bonus__text">
+                        © Copyright
+                        <b>Butterfly</b> . All Rights Reserved
+                    </div>
+                    <div>
+                        Design by
+                        <a href="#" class="footer__bonus__link" style="color:#74C6ED;">PhuongHight</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top__link">
+        <div class="back-to-top">
+            <i class="fa-solid fa-arrow-up position-absolute-center"></i>
+        </div>
+    </a>
+</body>
+
+<script>
+    const $ = document.querySelector.bind(document);
+    const $$ = document.querySelectorAll.bind(document);
+
+    //click button bar mobile
+    const btnBarMobile = $('.navbar__mobile__btn');
+    btnBarMobile.onclick = function() {
+        $('.overlay').style.display = "block";
+        $('.navbar__list__mobile').style.display = "block";
+    }
+
+    //button close bar
+    $('.navbar__list__mobile--close').onclick = function() {
+        $('.overlay').style.display = "none";
+        $('.navbar__list__mobile').style.display = "none";
+    }
+
+    //click to close navbars__list and overlay
+    const navbarsMobile = $$('.navbar__item__mobile');
+    navbarsMobile.forEach((navbarMobile) => {
+
+        navbarMobile.onclick = function() {
+            $('.overlay').style.display = "none";
+            $('.navbar__list__mobile').style.display = "none";
+        }
+    })
+
+    //auto slide
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("main__pictures__img");
+        var y = document.getElementsByClassName("main__control");
+
+        for (i = 0; i < x.length; i++) {
+            // x[i].style.display = "none ";
+            x[i].classList.remove('active');
+
+            y[i].classList.remove('main__control--active');
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+            myIndex = 1;
+        }
+        // x[myIndex - 1].style.display = "block ";
+        x[myIndex - 1].classList.add('active');
+
+        y[myIndex - 1].classList.add('main__control--active');
+        setTimeout(carousel, 4000);
+    };
+
+    const circles = $$('.main__control');
+    const pictures = $$('.main__pictures__img');
+
+    circles.forEach((circle, index) => {
+        const picture = pictures[index];
+        circle.onclick = function() {
+            $('.main__control.main__control--active').classList.remove('main__control--active');
+            $('.main__pictures__img.active').classList.remove('active');
+
+            circle.classList.add('main__control--active');
+            picture.classList.add('active');
+        }
+    });
+</script>
+
+</html>

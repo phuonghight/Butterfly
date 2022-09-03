@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Butterfly</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header" class="header">
+        <a href="" class="header__link-logo">
+            <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/logo.png" alt="" class="header__link--img">
+        </a>
+
+        <button class="navbar__mobile__btn">
+                <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__item">
+                    <a href="#" class="navbar__link navbar__link--active">HOME</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__link">ABOUT</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#services" class="navbar__link">SERVICES</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#portfolio" class="navbar__link">PORTFOLIO</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#team" class="navbar__link">TEAM</a>
+                </li>
+                <li class="navbar__item dropdown">
+                    <a href="" class="navbar__link">DROPDOWN
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown__list">
+                        <li class="dropdown__item">
+                            <a href="" class="dropdown__link navbar__link">Dropdown 1</a>
+                        </li>
+                        <li class="dropdown__item deep__dropdown">
+                            <a href="#" class="dropdown__link navbar__link">Deep Dropdown
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="deep__dropdown__list">
+                                <li class="deep__dropdown__item dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 1</a>
+                                </li>
+                                <li class="deep__dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 2
+                                    </a>
+
+                                </li>
+                                <li class="deep__dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 3</a>
+                                </li>
+                                <li class="deep__dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 4</a>
+                                </li>
+                                <li class="deep__dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 5</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown__item">
+                            <a href="" class="dropdown__link navbar__link">Dropdown 2</a>
+                        </li>
+                        <li class="dropdown__item">
+                            <a href="" class="dropdown__link navbar__link">Dropdown 3</a>
+                        </li>
+                        <li class="dropdown__item">
+                            <a href="" class="dropdown__link navbar__link">Dropdown 4</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__item">
+                    <a href="#contact" class="navbar__link">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="overlay">
+        <div class="navbar__list__mobile">
+            <button class="navbar__list__mobile--close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <ul class="navbar__list">
+                <li class="navbar__item navbar__item__mobile">
+                    <a href="#" class="navbar__link navbar__link--active">HOME</a>
+                </li>
+                <li class="navbar__item navbar__item__mobile">
+                    <a href="#about" class="navbar__link">ABOUT</a>
+                </li>
+                <li class="navbar__item navbar__item__mobile">
+                    <a href="#services" class="navbar__link">SERVICES</a>
+                </li>
+                <li class="navbar__item navbar__item__mobile">
+                    <a href="#portfolio" class="navbar__link">PORTFOLIO</a>
+                </li>
+                <li class="navbar__item navbar__item__mobile">
+                    <a href="#team" class="navbar__link">TEAM</a>
+                </li>
+                <li class="navbar__item dropdown">
+                    <a href="#" class="navbar__link">DROPDOWN
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown__list">
+                        <li class="dropdown__item">
+                            <a href="" class="dropdown__link navbar__link">Dropdown 1</a>
+                        </li>
+                        <li class="dropdown__item deep__dropdown">
+                            <a href="#" class="dropdown__link navbar__link">Deep Dropdown
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="deep__dropdown__list">
+                                <li class="deep__dropdown__item dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 1</a>
+                                </li>
+                                <li class="deep__dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 2
+                                    </a>
+
+                                </li>
+                                <li class="deep__dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 3</a>
+                                </li>
+                                <li class="deep__dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 4</a>
+                                </li>
+                                <li class="deep__dropdown__item">
+                                    <a href="" class="deep__dropdown__link navbar__link">Deep DropDown 5</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown__item">
+                            <a href="" class="dropdown__link navbar__link">Dropdown 2</a>
+                        </li>
+                        <li class="dropdown__item">
+                            <a href="" class="dropdown__link navbar__link">Dropdown 3</a>
+                        </li>
+                        <li class="dropdown__item">
+                            <a href="" class="dropdown__link navbar__link">Dropdown 4</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__item navbar__item__mobile">
+                    <a href="#contact" class="navbar__link">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <div id="home" class="home">
+        <div class="container">
+            <div class="home__content">
+                <div class="home__info">
+                    <h2 class="headding">CREATING WEBSITES THAT MAKE YOU STOP & STARE</h2>
+                    <div class="home__info__text text">Accusantium quam, aliquam ultricies eget tempor id, aliquam eget nibh et. Maecen aliquam, risus at semper. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum.
+                    </div>
+                    <a href="#about" class="home__link">GET STARTED</a>
+                </div>
+                <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/hero-img.png" alt="" class="home__img">
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="about">
+                <div class="about__video">
+                    <a href="" class="about__video__btn">
+                        <i class="fa-solid fa-play about__video__btn-icon"></i>
+                    </a>
+                </div>
+                <div class="about__content">
+                    <h3 class="headding3">Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+                    <div style="text-align: left;" class="about__content__text text">Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut
+                        voluptate.
+                    </div>
+                    <div class="about__list">
+                        <div class="about__item">
+                            <div class="about__item__icon">
+                                <i class="fa-solid fa-fingerprint"></i>
+                            </div>
+                            <div class="about__item__info">
+                                <a href="" class="about__item__info__link link-headding">Lorem Ipsum</a>
+                                <div class="about__item__info__text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</div>
+                            </div>
+                        </div>
+                        <div class="about__item">
+                            <div class="about__item__icon">
+                                <i class="fa-solid fa-gift"></i>
+                            </div>
+                            <div class="about__item__info">
+                                <a href="" class="about__item__info__link link-headding">Nemo Enim</a>
+                                <div class="about__item__info__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</div>
+                            </div>
+                        </div>
+                        <div class="about__item">
+                            <div class="about__item__icon">
+                                <i class="fa-brands fa-react"></i>
+                            </div>
+                            <div class="about__item__info">
+                                <a href="" class="about__item__info__link link-headding">Dine Pad</a>
+                                <div class="about__item__info__text">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about__number">
+            <div class="about__number__bg"></div>
+            <div class="about__number__content container">
+                <h3 class="h3">What we have achieved so far</h3>
+                <div class="about__number__text text">Iusto et labore modi qui sapiente xpedita tempora et aut non ipsum consequatur illo.</div>
+                <div class="about__number__list">
+                    <div class="about__number__item">
+                        <span data-purecounter-start="0" data-purecounter-end="232" class="num-counter"></span>
+                        <div class="about__number__item__name">Clients</div>
+                    </div>
+                    <div class="about__number__item">
+                        <span data-purecounter-start="0" data-purecounter-end="521" class="num-counter"></span>
+                        <div class="about__number__item__name">Projects</div>
+                    </div>
+                    <div class="about__number__item">
+                        <span data-purecounter-start="0" data-purecounter-end="1463" class="num-counter"></span>
+                        <div class="about__number__item__name">Hours Of Support</div>
+                    </div>
+                    <div class="about__number__item">
+                        <span data-purecounter-start="0" data-purecounter-end="15" class="num-counter"></span>
+                        <div class="about__number__item__name">Hard Workers</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about__clients flex-wrap container">
+            <div class="about__client">
+                <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/clients/client-1.png" alt="" class="about__client__img">
+            </div>
+            <div class="about__client">
+                <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/clients/client-2.png" alt="" class="about__client__img">
+            </div>
+            <div class="about__client">
+                <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/clients/client-3.png" alt="" class="about__client__img">
+            </div>
+            <div class="about__client">
+                <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/clients/client-4.png" alt="" class="about__client__img">
+            </div>
+            <div class="about__client">
+                <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/clients/client-5.png" alt="" class="about__client__img">
+            </div>
+            <div class="about__client">
+                <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/clients/client-6.png" alt="" class="about__client__img">
+            </div>
+            <div class="about__client">
+                <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/clients/client-7.png" alt="" class="about__client__img">
+            </div>
+            <div class="about__client">
+                <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/clients/client-8.png" alt="" class="about__client__img">
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h3 class="h3">SERVICES</h3>
+            <div class="services__text text">
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </div>
+            <div class="services__list">
+                <div class="services__item">
+                    <div class="services__item__icon">
+                        <i class="fa-solid fa-money-bills" style="color: #FF689B;"></i>
+                    </div>
+                    <div class="services__item__content">
+                        <a href="" class="link-headding">Lorem Ipsum</a>
+                        <div class="services__item__text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__item__icon">
+                        <i class="fa-solid fa-calendar-week" style="color: #E9BF06;"></i>
+                    </div>
+                    <div class="services__item__content">
+                        <a href="" class="link-headding">Dolor Sitema</a>
+                        <div class="services__item__text">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__item__icon">
+                        <i class="fa-regular fa-comment-dots" style="color: #3FCDC7;"></i>
+                    </div>
+                    <div class="services__item__content">
+                        <a href="" class="link-headding">Sed ut perspiciatis</a>
+                        <div class="services__item__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__item__icon">
+                        <i class="fa-regular fa-credit-card" style="color: #41CF2E;"></i>
+                    </div>
+                    <div class="services__item__content">
+                        <a href="" class="link-headding">Magni Dolores</a>
+                        <div class="services__item__text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__item__icon">
+                        <i class="fa-solid fa-globe" style="color: #D6FF22;"></i>
+                    </div>
+                    <div class="services__item__content">
+                        <a href="" class="link-headding">Nemo Enim</a>
+                        <div class="services__item__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__item__icon">
+                        <i class="fa-regular fa-clock" style="color: #4680FF;"></i>
+                    </div>
+                    <div class="services__item__content">
+                        <a href="" class="link-headding">Eiusmod Tempor</a>
+                        <div class="services__item__text">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio" class="portfolio container">
+        <h3 class="h3">PORTFOLIO</h3>
+        <div class="portfolio__text text">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem
+            hic quas.
+        </div>
+        <div class="portfolio__content">
+            <div class="portfolio__content__control">
+                <div class="portfolio__content__control__name portfolio__content__control__name--active">ALL</div>
+                <div class="portfolio__content__control__name">APP</div>
+                <div class="portfolio__content__control__name">CARD</div>
+                <div class="portfolio__content__control__name">WEB</div>
+            </div>
+            <div class="portfolio__content__list">
+                <div class="portfolio__content__item app">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-1.jpg" alt="" class="portfolio__content__img">
+                    <div class="portfolio__content__item--hover">
+                        <h3 class="portfolio__content__item__name">APP 1</h3>
+                        <h4 class="portfolio__content__item__type">APP</h4>
+                        <div class="portfolio__content__item__link">
+                            <i class="fa-solid fa-plus icon-plus"></i>
+                            <a href="portfolio.html">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__content__item web">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-2.jpg" alt="" class="portfolio__content__img">
+                    <div class="portfolio__content__item--hover">
+                        <h3 class="portfolio__content__item__name">WEB 3</h3>
+                        <h4 class="portfolio__content__item__type">WEB</h4>
+                        <div class="portfolio__content__item__link">
+                            <i class="fa-solid fa-plus icon-plus"></i>
+                            <a href="portfolio.html">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__content__item app">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-3.jpg" alt="" class="portfolio__content__img">
+                    <div class="portfolio__content__item--hover">
+                        <h3 class="portfolio__content__item__name">APP 2</h3>
+                        <h4 class="portfolio__content__item__type">APP</h4>
+                        <div class="portfolio__content__item__link">
+                            <i class="fa-solid fa-plus icon-plus"></i>
+                            <a href="portfolio.html">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__content__item card">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-4.jpg" alt="" class="portfolio__content__img">
+                    <div class="portfolio__content__item--hover">
+                        <h3 class="portfolio__content__item__name">CARD 2</h3>
+                        <h4 class="portfolio__content__item__type">CARD</h4>
+                        <div class="portfolio__content__item__link">
+                            <i class="fa-solid fa-plus icon-plus"></i>
+                            <a href="portfolio.html">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__content__item web">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-5.jpg" alt="" class="portfolio__content__img">
+                    <div class="portfolio__content__item--hover">
+                        <h3 class="portfolio__content__item__name">WEB 2</h3>
+                        <h4 class="portfolio__content__item__type">WEB</h4>
+                        <div class="portfolio__content__item__link">
+                            <i class="fa-solid fa-plus icon-plus"></i>
+                            <a href="portfolio.html">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__content__item app">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-6.jpg" alt="" class="portfolio__content__img">
+                    <div class="portfolio__content__item--hover">
+                        <h3 class="portfolio__content__item__name">APP 3</h3>
+                        <h4 class="portfolio__content__item__type">APP</h4>
+                        <div class="portfolio__content__item__link">
+                            <i class="fa-solid fa-plus icon-plus"></i>
+                            <a href="portfolio.html">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__content__item card">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-7.jpg" alt="" class="portfolio__content__img">
+                    <div class="portfolio__content__item--hover">
+                        <h3 class="portfolio__content__item__name">CARD 1</h3>
+                        <h4 class="portfolio__content__item__type">CARD</h4>
+                        <div class="portfolio__content__item__link">
+                            <i class="fa-solid fa-plus icon-plus"></i>
+                            <a href="portfolio.html">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__content__item card">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-8.jpg" alt="" class="portfolio__content__img">
+                    <div class="portfolio__content__item--hover">
+                        <h3 class="portfolio__content__item__name">CARD 3</h3>
+                        <h4 class="portfolio__content__item__type">CARD</h4>
+                        <div class="portfolio__content__item__link">
+                            <i class="fa-solid fa-plus icon-plus"></i>
+                            <a href="portfolio.html">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__content__item web">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-9.jpg" alt="" class="portfolio__content__img">
+                    <div class="portfolio__content__item--hover">
+                        <h3 class="portfolio__content__item__name">WEB 3</h3>
+                        <h4 class="portfolio__content__item__type">WEB</h4>
+                        <div class="portfolio__content__item__link">
+                            <i class="fa-solid fa-plus icon-plus"></i>
+                            <a href="portfolio.html">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay-picture--first">
+        <div class="overlay-picture--first__list">
+            <div class="overlay-picture--first__item">
+                <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-1.jpg" alt="" class="overlay-picture--first__item__img">
+                <div class="overlay-picture--first__item__text">APP 1</div>
+            </div>
+            <div class="overlay-picture--first__item">
+                <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-2.jpg" alt="" class="overlay-picture--first__item__img">
+                <div class="overlay-picture--first__item__text">WEB 3</div>
+            </div>
+            <div class="overlay-picture--first__item">
+                <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-3.jpg" alt="" class="overlay-picture--first__item__img">
+                <div class="overlay-picture--first__item__text">APP 2</div>
+            </div>
+            <div class="overlay-picture--first__item">
+                <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-4.jpg" alt="" class="overlay-picture--first__item__img">
+                <div class="overlay-picture--first__item__text">CARD 2</div>
+            </div>
+            <div class="overlay-picture--first__item">
+                <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-5.jpg" alt="" class="overlay-picture--first__item__img">
+                <div class="overlay-picture--first__item__text">WEB 2</div>
+            </div>
+            <div class="overlay-picture--first__item">
+                <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-6.jpg" alt="" class="overlay-picture--first__item__img">
+                <div class="overlay-picture--first__item__text">APP 3</div>
+            </div>
+            <div class="overlay-picture--first__item">
+                <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-7.jpg" alt="" class="overlay-picture--first__item__img">
+                <div class="overlay-picture--first__item__text">CARD 1</div>
+            </div>
+            <div class="overlay-picture--first__item">
+                <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-8.jpg" alt="" class="overlay-picture--first__item__img">
+                <div class="overlay-picture--first__item__text">CARD 3</div>
+            </div>
+            <div class="overlay-picture--first__item">
+                <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/portfolio/portfolio-9.jpg" alt="" class="overlay-picture--first__item__img">
+                <div class="overlay-picture--first__item__text">WEB 3</div>
+            </div>
+        </div>
+        <i class="fa-solid fa-chevron-left overlay-picture--left"></i>
+        <i class="fa-solid fa-chevron-right overlay-picture--right"></i>
+        <i class="fa-solid fa-xmark overlay-picture--close"></i>
+    </div>
+
+    <div class="slidebar">
+        <div class="slidebar__members">
+            <div class="slidebar__member active">
+                <div class="slidebar__member__avt">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/testimonials/testimonials-1.jpg" alt="" class="slidebar__member__avt__img">
+                </div>
+                <div class="slidebar__member__name">Saul Goodman</div>
+                <div class="slidebar__member__job">CEO & Founder</div>
+                <div class="slidebar__member__text">
+                    <i class="fa-solid fa-quote-left"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    <i class="fa-solid fa-quote-right"></i>
+                </div>
+            </div>
+            <div class="slidebar__member">
+                <div class="slidebar__member__avt">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/testimonials/testimonials-2.jpg" alt="" class="slidebar__member__avt__img">
+                </div>
+                <div class="slidebar__member__name">Sara Wilsson</div>
+                <div class="slidebar__member__job">Designer</div>
+                <div class="slidebar__member__text">
+                    <i class="fa-solid fa-quote-left"></i> Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    <i class="fa-solid fa-quote-right"></i>
+                </div>
+            </div>
+            <div class="slidebar__member">
+                <div class="slidebar__member__avt">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/testimonials/testimonials-3.jpg" alt="" class="slidebar__member__avt__img">
+                </div>
+                <div class="slidebar__member__name">Jena Karlis</div>
+                <div class="slidebar__member__job">Store Owner</div>
+                <div class="slidebar__member__text">
+                    <i class="fa-solid fa-quote-left"></i> Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+
+                    <i class="fa-solid fa-quote-right"></i>
+                </div>
+            </div>
+            <div class="slidebar__member">
+                <div class="slidebar__member__avt">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/testimonials/testimonials-4.jpg" alt="" class="slidebar__member__avt__img">
+                </div>
+                <div class="slidebar__member__name">Matt Brandon</div>
+                <div class="slidebar__member__job">Freelancer</div>
+                <div class="slidebar__member__text">
+                    <i class="fa-solid fa-quote-left"></i> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+
+                    <i class="fa-solid fa-quote-right"></i>
+                </div>
+            </div>
+            <div class="slidebar__member">
+                <div class="slidebar__member__avt">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/testimonials/testimonials-5.jpg" alt="" class="slidebar__member__avt__img">
+                </div>
+                <div class="slidebar__member__name">John Larson</div>
+                <div class="slidebar__member__job">Entrepreneur</div>
+                <div class="slidebar__member__text">
+                    <i class="fa-solid fa-quote-left"></i> Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
+                    quid.
+
+                    <i class="fa-solid fa-quote-right"></i>
+                </div>
+            </div>
+
+        </div>
+        <div class="slidebar__mini-control">
+            <div class="slidebar__mini-control__person slidebar__mini-control--active"></div>
+            <div class="slidebar__mini-control__person"></div>
+            <div class="slidebar__mini-control__person"></div>
+            <div class="slidebar__mini-control__person"></div>
+            <div class="slidebar__mini-control__person"></div>
+        </div>
+    </div>
+
+    <div id="team" style="background-color: #F4FBFE; padding: 50px 0;">
+        <div class="container team">
+            <h3 style="text-align: center;" class="h3 team__headding">TEAM</h3>
+            <div style="margin: 20px 0; text-align: center;" class="team__text text">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem
+                hic quas.
+            </div>
+            <div class="team__members flex-wrap flex">
+                <div class="team__member">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/team/team-1.jpg" alt="" class="team__member__img">
+                    <h3 class="team__member__name">Walter White</h3>
+                    <div class="team__member__job">Chief Executive Officer</div>
+                    <div class="team__member__contact">
+                        <div class="team__member__contact__icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="team__member__contact__icon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="team__member__contact__icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="team__member__contact__icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team__member">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/team/team-2.jpg" alt="" class="team__member__img">
+                    <h3 class="team__member__name">Sarah Jhonson</h3>
+                    <div class="team__member__job">Product Manager</div>
+                    <div class="team__member__contact">
+                        <div class="team__member__contact__icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="team__member__contact__icon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="team__member__contact__icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="team__member__contact__icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team__member">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/team/team-3.jpg" alt="" class="team__member__img">
+                    <h3 class="team__member__name">William Anderson</h3>
+                    <div class="team__member__job">CTO</div>
+                    <div class="team__member__contact">
+                        <div class="team__member__contact__icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="team__member__contact__icon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="team__member__contact__icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="team__member__contact__icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team__member">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/team/team-4.jpg" alt="" class="team__member__img">
+                    <h3 class="team__member__name">Amanda Jepson</h3>
+                    <div class="team__member__job">Accountant</div>
+                    <div class="team__member__contact">
+                        <div class="team__member__contact__icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="team__member__contact__icon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="team__member__contact__icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="team__member__contact__icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gallary" style="padding: 50px 0;">
+        <div class="container gallary">
+            <h3 class="h3">GALLARY</h3>
+            <div class="gallary__text text">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem
+                hic quas.
+            </div>
+            <div class="gallary__list">
+                <div class="gallary__item">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/gallery/gallery-1.jpg" alt="" class="gallary__item__img">
+                </div>
+                <div class="gallary__item">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/gallery/gallery-2.jpg" alt="" class="gallary__item__img">
+                </div>
+                <div class="gallary__item">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/gallery/gallery-3.jpg" alt="" class="gallary__item__img">
+                </div>
+                <div class="gallary__item">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/gallery/gallery-4.jpg" alt="" class="gallary__item__img">
+                </div>
+                <div class="gallary__item">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/gallery/gallery-5.jpg" alt="" class="gallary__item__img">
+                </div>
+                <div class="gallary__item">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/gallery/gallery-6.jpg" alt="" class="gallary__item__img">
+                </div>
+                <div class="gallary__item">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/gallery/gallery-7.jpg" alt="" class="gallary__item__img">
+                </div>
+                <div class="gallary__item">
+                    <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/gallery/gallery-8.jpg" alt="" class="gallary__item__img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- overlay + picture gallery -->
+    <div class="overlay-picture">
+        <div class="overlay-picture__list">
+            <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/gallery/gallery-1.jpg" alt="" class="overlay-picture__item">
+            <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/gallery/gallery-2.jpg" alt="" class="overlay-picture__item">
+            <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/gallery/gallery-3.jpg" alt="" class="overlay-picture__item">
+            <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/gallery/gallery-4.jpg" alt="" class="overlay-picture__item">
+            <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/gallery/gallery-5.jpg" alt="" class="overlay-picture__item">
+            <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/gallery/gallery-6.jpg" alt="" class="overlay-picture__item">
+            <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/gallery/gallery-7.jpg" alt="" class="overlay-picture__item">
+            <img src="https://rad-banoffee-a5d7df.netlify.app/assets/img/gallery/gallery-8.jpg" alt="" class="overlay-picture__item">
+        </div>
+        <i class="fa-solid fa-chevron-left overlay-picture--left"></i>
+        <i class="fa-solid fa-chevron-right overlay-picture--right"></i>
+        <i class="fa-solid fa-xmark overlay-picture--close"></i>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="contact">
+                <div class="contact__header">
+                    <h3 class="h3 contact__headding">CONTACT</h3>
+                    <div class="contact__text text">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi
+                        quidem hic quas.
+                    </div>
+                </div>
+                <iframe class="contact__map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1svi!2sbg!4v1661931531814!5m2!1svi!2sbg"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div class="contact__content">
+                    <div class="contact__info__list">
+                        <div class="contact__info__item">
+                            <div class="contact__info__icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="contact__info__text">
+                                <h3 class="contact__info__text__headding">Location:</h3>
+                                <div class="contact__info__text__t">A108 Adam Street, New York, NY 535022</div>
+                            </div>
+                        </div>
+                        <div class="contact__info__item">
+                            <div class="contact__info__icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="contact__info__text">
+                                <h3 class="contact__info__text__headding">Email:</h3>
+                                <div class="contact__info__text__t">info@example.com</div>
+                            </div>
+                        </div>
+                        <div class="contact__info__item">
+                            <div class="contact__info__icon">
+                                <i class="fa-solid fa-mobile-button"></i>
+                            </div>
+                            <div class="contact__info__text">
+                                <h3 class="contact__info__text__headding">Call:</h3>
+                                <div class="contact__info__text__t">+1 5589 55488 55s</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="contact__input__list">
+                        <div class="contact__input__item flex">
+                            <input type="text" class="contact__input__name contact__input" placeholder="Your Name">
+                            <input type="email" class="contact__input__email contact__input" placeholder="Your Email">
+                        </div>
+                        <div class="contact__input__item">
+                            <input type="text" class="contact__input__subject contact__input" placeholder="Subject">
+                        </div>
+                        <div class="contact__input__item">
+                            <textarea type="text" class="contact__input__massage contact__input" placeholder="Message" required></textarea>
+                        </div>
+                        <button class="contact__send">Send Massage</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="contact__subscribe">
+            <div class="container">
+
+                <h3 class="contact__subscribe__headding">Join Our Newsletter</h3>
+                <div class="contact__subscribe__text">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</div>
+                <div class="contact__subscribe__input">
+                    <input type="text" class="contact__subscribe__ip">
+                    <button class="contact__subscribe__btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer__info flex flex-wrap">
+                <div class="footer__info__main footer__info__item">
+                    <h3 class="footer__info__main__headding">Butterfly</h3>
+                    <div class="footer__info__main__addr">
+                        A108 Adam Street
+                        <br> New York, NY 535022
+                        <br> United States
+                    </div>
+                    <div class="footer__info__main__phone"><b>Phone:</b> +1 5589 55488 55</div>
+                    <div class="footer__info__main__email"><b>Email:</b> info@example.com</div>
+                </div>
+                <div class="footer__info__links footer__info__item">
+                    <h3 class="footer__infor__h3">Useful Links</h3>
+                    <div class="footer__info__links__list">
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> Home
+                        </a>
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> About us
+                        </a>
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> Services
+
+                        </a>
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> Terms of service
+                        </a>
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> Privacy policy
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__info__services footer__info__item">
+                    <h3 class="footer__infor__h3">Our Services</h3>
+                    <div class="footer__info__links__list">
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> Web Design
+                        </a>
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> Web Development
+                        </a>
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> Product Management
+
+                        </a>
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> Marketing
+                        </a>
+                        <a href="#" class="footer__info__link">
+                            <i class="fa-solid fa-angle-right"></i> Graphic Design
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__info__networks footer__info__item">
+                    <h3 class="footer__infor__h3">Our Social Networks</h3>
+                    <div class="footer__info__networks__text">Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</div>
+                    <div class="footer__info__networks__icons">
+                        <div class="footer__info__networks__icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="footer__info__networks__icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="footer__info__networks__icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="footer__info__networks__icon">
+                            <i class="fa-brands fa-skype"></i>
+                        </div>
+                        <div class="footer__info__networks__icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="background-color: #F0F9FD;">
+            <div class="container">
+                <div style="padding: 50px 0;" class="footer__bonus flex">
+                    <div class="footer__bonus__text">
+                        © Copyright
+                        <b>Butterfly</b> . All Rights Reserved
+                    </div>
+                    <div>
+                        Design by
+                        <a href="#" class="footer__bonus__link" style="color:#74C6ED;">PhuongHight</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top__link">
+        <div class="back-to-top">
+            <i class="fa-solid fa-arrow-up position-absolute-center"></i>
+        </div>
+    </a>
+
+    <script>
+        const $ = document.querySelector.bind(document)
+        const $$ = document.querySelectorAll.bind(document)
+
+        //click button bar mobile
+        const btnBarMobile = $('.navbar__mobile__btn')
+        btnBarMobile.onclick = function() {
+            $('.overlay').style.display = "block"
+            $('.navbar__list__mobile').style.display = "block"
+        }
+
+        //button close bar
+        $('.navbar__list__mobile--close').onclick = function() {
+            $('.overlay').style.display = "none"
+            $('.navbar__list__mobile').style.display = "none"
+        }
+
+        //click to close navbars__list and overlay
+        const navbarsMobile = $$('.navbar__item__mobile')
+        navbarsMobile.forEach(navbarMobile => {
+            navbarMobile.onclick = function() {
+                $('.overlay').style.display = "none"
+                $('.navbar__list__mobile').style.display = "none"
+            }
+        })
+
+        //click navbar header
+        const navbars = $$('.navbar__link')
+        navbars.forEach(navbar => {
+            navbar.onclick = function() {
+                $('.navbar__link.navbar__link--active').classList.remove('navbar__link--active')
+
+                navbar.classList.add('navbar__link--active')
+            }
+        })
+
+
+
+        //auto slider member
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("slidebar__member");
+            var y = document.getElementsByClassName("slidebar__mini-control__person");
+
+            for (i = 0; i < x.length; i++) {
+                // x[i].style.display = "none ";
+                x[i].classList.remove('active');
+
+                y[i].classList.remove('slidebar__mini-control--active');
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1;
+            }
+            // x[myIndex - 1].style.display = "block ";
+            x[myIndex - 1].classList.add('active');
+
+            y[myIndex - 1].classList.add('slidebar__mini-control--active');
+            setTimeout(carousel, 5000);
+        };
+
+        // click slider member
+        const members = $$('.slidebar__member')
+        const circles = $$('.slidebar__mini-control__person')
+        circles.forEach((circle, index) => {
+            const member = members[index]
+            circle.onclick = function() {
+                $('.slidebar__mini-control__person.slidebar__mini-control--active').classList.remove('slidebar__mini-control--active')
+                $('.slidebar__member.active').classList.remove('active')
+
+                circle.classList.add('slidebar__mini-control--active')
+                member.classList.add('active')
+            }
+        });
+
+        //click portfolio control
+        const controls = $$('.portfolio__content__control__name')
+        const webs = $$('.web')
+        const apps = $$('.app')
+        const cards = $$('.card')
+
+        controls.forEach((control) => {
+            control.onclick = function() {
+                $('.portfolio__content__control__name.portfolio__content__control__name--active').classList.remove('portfolio__content__control__name--active')
+
+                control.classList.add('portfolio__content__control__name--active')
+
+                if (this.innerText === "APP") {
+                    for (let index = 0; index < webs.length; index++) {
+                        apps[index].style.display = "block"
+                        webs[index].style.display = "none"
+                        cards[index].style.display = "none"
+                    }
+                } else if (this.innerText === "WEB") {
+                    for (let index = 0; index < webs.length; index++) {
+                        webs[index].style.display = "block"
+                        apps[index].style.display = "none"
+                        cards[index].style.display = "none"
+                    }
+                } else if (this.innerText === "CARD") {
+                    for (let index = 0; index < webs.length; index++) {
+                        cards[index].style.display = "block"
+                        webs[index].style.display = "none"
+                        apps[index].style.display = "none"
+                    }
+                } else {
+                    for (let index = 0; index < webs.length; index++) {
+                        cards[index].style.display = "block"
+                        webs[index].style.display = "block"
+                        apps[index].style.display = "block"
+                    }
+                }
+            }
+        })
+
+        //back-to-top
+        const backToTop = $('.back-to-top')
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 100) {
+                backToTop.classList.add("active")
+            } else {
+                backToTop.classList.remove("active")
+            }
+        })
+
+        //click picture in gallary
+        const pics = $$('.gallary__item__img')
+        const imgs = $$('.overlay-picture__item')
+        const left = $$('.overlay-picture--left')
+        const right = $$('.overlay-picture--right')
+        const closePicture = $$('.overlay-picture--close')
+
+
+        var currentIndex = 0
+
+        function updatePicByIndex(index) {
+            $('.overlay').classList.add('active')
+            $('.overlay-picture').classList.add('active')
+
+            // $('.overlay-picture__item.active').classList.remove('active')
+
+            currentIndex = index
+            const img = imgs[index]
+            img.classList.add('active')
+        }
+
+        pics.forEach((pic, index) => {
+            pic.addEventListener('click', e => {
+                updatePicByIndex(index)
+            })
+        })
+
+        left[1].addEventListener('click', () => {
+            if (currentIndex == 0) {
+                currentIndex = imgs.length - 1
+            } else {
+                currentIndex--
+            }
+            $('.overlay-picture__item.active').classList.remove('active')
+            updatePicByIndex(currentIndex)
+        })
+
+        left[0].addEventListener('click', () => {
+            if (currentIndexFirst == 0) {
+                currentIndexFirst = portfolioPics.length - 1
+            } else {
+                currentIndexFirst--
+            }
+            $('.overlay-picture--first__item.active').classList.remove('active')
+            updatePicByIndexFirst(currentIndexFirst)
+        })
+
+        right[1].addEventListener('click', e => {
+            if (currentIndex == imgs.length - 1) {
+                currentIndex = 0
+            } else {
+                currentIndex++
+            }
+            $('.overlay-picture__item.active').classList.remove('active')
+            updatePicByIndex(currentIndex)
+        })
+
+        right[0].addEventListener('click', e => {
+            if (currentIndexFirst == portfolioPics.length - 1) {
+                currentIndexFirst = 0
+            } else {
+                currentIndexFirst++
+            }
+            $('.overlay-picture--first__item.active').classList.remove('active')
+            updatePicByIndexFirst(currentIndexFirst)
+        })
+
+        $('.overlay').onclick = function() {
+            $('.overlay').classList.remove('active')
+            $('.overlay-picture').classList.remove('active')
+            for (let i = 0; i < imgs.length; i++) {
+                imgs[i].classList.remove('active')
+            }
+
+            $('.overlay-picture--first').classList.remove('active')
+            for (let i = 0; i < portfolioPics.length; i++) {
+                portfolioPics[i].classList.remove('active')
+            }
+        }
+
+        closePicture.forEach(close => {
+            close.onclick = function() {
+                $('.overlay').classList.remove('active')
+                $('.overlay-picture').classList.remove('active')
+                for (let i = 0; i < imgs.length; i++) {
+                    imgs[i].classList.remove('active')
+                }
+
+                $('.overlay-picture--first').classList.remove('active')
+                for (let i = 0; i < portfolioPics.length; i++) {
+                    portfolioPics[i].classList.remove('active')
+                }
+            }
+        })
+
+        const iconsPlus = $$('.icon-plus')
+        const portfolioPics = $$('.overlay-picture--first__item')
+
+        var currentIndexFirst = 0
+
+        function updatePicByIndexFirst(index) {
+            $('.overlay').classList.add('active')
+            $('.overlay-picture--first').classList.add('active')
+
+            currentIndexFirst = index
+            const portfolioPic = portfolioPics[index]
+            portfolioPic.classList.add('active')
+        }
+
+        iconsPlus.forEach((icon, index) => {
+            icon.addEventListener('click', e => {
+                updatePicByIndexFirst(index)
+            })
+        })
+
+        const nums = $$('.num-counter')
+            // console.log(nums)
+
+        function countUp(num, count, end) {
+            num.innerHTML = count
+            if (count <= end) {
+                setTimeout(() => countUp(count + 1), 2000 / end)
+            }
+            console.log(count)
+        }
+
+
+        nums.forEach(num => {
+            let start = Number(num.attributes[0].value)
+            let end = Number(num.attributes[1].value)
+            let time = 2000 / end
+                // console.log(end)
+            let counter = setInterval(() => {
+                start += 1
+                num.innerHTML = start
+                if (start == end) {
+                    clearInterval(counter)
+                }
+            }, time);
+        })
+    </script>
+</body>
+
+</html>
